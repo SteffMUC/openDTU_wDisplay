@@ -874,7 +874,7 @@
     (property "Value" "10uF" (id 1) (at 170.18 63.5062 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" (id 2) (at 167.64 62.23 0)
+    (property "Footprint" "Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm" (id 2) (at 167.64 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 167.64 62.23 0)
@@ -902,7 +902,7 @@
       (reference "#PWR07") (unit 1) (value "GND") (footprint "")
     )
     (path "/cefddf09-d3e4-4e2b-88b4-c3b2e75be24c"
-      (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal")
+      (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm")
     )
     (path "/c32a4154-ea87-42e2-b3a7-16770e25f056"
       (reference "ESP32NodeMCU1") (unit 1) (value "ESP32NodeMCU") (footprint "ESP32-NodeMCU_WROOM_32:ESP32-NodeMCU_WROOM_32")
