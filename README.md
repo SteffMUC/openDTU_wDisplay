@@ -8,7 +8,10 @@ Unfortunately wrong lib for SSD1306 used, so display is not fully at desired loc
 
 Goal is to have a PCB with NodeMCU + nRF chip + SSD1306 display (not size optimized)
 
-Please find picture here.
+Picture of first full assembly:
+<p float="left">
+  <img src="https://github.com/SteffMUC/openDTU_wDisplay/blob/main/IMG_0538.jpg" alt="Pre Assembly Part1" width="200"/>
+</p>
 
 Issues: cannot get display running:
 https://github.com/tbnobody/OpenDTU/discussions/532#discussioncomment-4935189
