@@ -12,10 +12,15 @@ Goal is to have a PCB with NodeMCU + nRF chip + SSD1306 display (not size optimi
 Picture of first full assembly:
 <p float="left">
   <img src="https://github.com/SteffMUC/openDTU_wDisplay/blob/main/IMG_0538.jpg" alt="Pre Assembly Part1" width="200"/>
+  <img src="https://github.com/SteffMUC/openDTU_wDisplay/blob/main/IMG_0541.jpg" alt="Pre Assembly Part1" width="200"/>
 </p>
 
-Issues: cannot get display running:
+Issues: None, initially could not get the display running:
 https://github.com/tbnobody/OpenDTU/discussions/532#discussioncomment-4935189
+However with upgrade of firmware to
+https://github.com/tbnobody/OpenDTU/commits/b5d099f
+it is running now :).
+
 
 
 
