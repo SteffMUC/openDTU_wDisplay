@@ -2,7 +2,7 @@
 
 $fn=100;
 
-//#translate([0,0,7])opendtu_pcb();
+
 //case_body();
 //
 rotate([0,180,0]) 
@@ -12,6 +12,7 @@ rotate([0,180,0])
 
 module case_body() {
 
+//#translate([0,0,7])opendtu_pcb(); // rough model for pcb w esp32+nrf+display
 //------------------------stamps for pcb
 //bottom right
 translate([4.5+94.75,5,2]) scale([1,1,1]) cylinder(h=10, d=3, center=false);
@@ -40,6 +41,7 @@ difference() {
 
 module case_top() {
 
+//#translate([0,0,7])opendtu_pcb(); // rough model for pcb w esp32+nrf+display
 //------------------------case top (leave 1mm gap to body)
 difference() {
     translate([-1.5,-3.5,2]) roundedcube(107,57,26,4); 
@@ -50,9 +52,16 @@ difference() {
     translate([15,20,2]) roundedcube(27.5,3,30,2);
     translate([15,30,2]) roundedcube(27.5,3,30,2);
     translate([15,40,2]) roundedcube(27.5,3,30,2);
-    translate([9,-5,1.5])cube([30,10,23.5]); //cutout usb + esp32
+    translate([9,-5,1.5])cube([32,60,23.5]); //cutout usb + esp32 (both sides !!)
+    //translate([103,-5,1.5])cube([32,60,23.5]); //debug cutout needs to be commented
 
     //translate([56,26,-5]) scale([1,1,1]) cylinder(h=20, d=17, center=true);
+}
+
+//------------------------case top, frame for display
+difference() {
+    translate([59-2.5/2,13.5+9-2,22.7]) roundedcube(30,20,4,4); 
+    translate([59,13.5+9,22]) roundedcube(27.5,16,30,4);// cutout display
 }
 
 //------------------------stamps for case top
