@@ -21,6 +21,8 @@ However with upgrade of firmware to
 https://github.com/tbnobody/OpenDTU/commits/b5d099f
 it is running now :).
 
+First version for case can be found in the openscad directory. Currently printing - so no guarantee whether it is perfectly fitting. Will update with pictures, once fully printed.
+
 
 
 
