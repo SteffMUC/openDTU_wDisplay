@@ -13,6 +13,7 @@ Picture of first full assembly:
 <p float="left">
   <img src="https://github.com/SteffMUC/openDTU_wDisplay/blob/main/IMG_0538.jpg" alt="Pre Assembly Part1" width="200"/>
   <img src="https://github.com/SteffMUC/openDTU_wDisplay/blob/main/IMG_0541.jpg" alt="Pre Assembly Part1" width="200"/>
+  <img src="https://github.com/SteffMUC/openDTU_wDisplay/blob/main/IMG_0547.jpg" alt="Pre Assembly Part1" width="200"/>
 </p>
 
 Issues: None, initially could not get the display running:
@@ -21,7 +22,8 @@ However with upgrade of firmware to
 https://github.com/tbnobody/OpenDTU/commits/b5d099f
 it is running now :).
 
-First version for case can be found in the openscad directory. Currently printing - so no guarantee whether it is perfectly fitting. Will update with pictures, once fully printed.
+First version for case can be found in the openscad directory. 
+Updated now with picture of case, fits perfectly.
 
 
 
