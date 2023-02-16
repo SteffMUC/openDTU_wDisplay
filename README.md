@@ -25,6 +25,8 @@ it is running now :).
 First version for case can be found in the openscad directory. 
 Updated now with picture of case, fits perfectly.
 
+5 PCBs not used, if anyone interested in Munich area, pls do not hesitate to contact me.
+
 Second PCB version now in production:
 https://github.com/SteffMUC/openDTU_wDisplay2
 
